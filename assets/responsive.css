@@ -1,0 +1,71 @@
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #hambar {
+        display: block !important;
+    }
+    .nav-items {
+        display: none;
+    }
+
+    .dropdown_show {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background: transparent;
+        backdrop-filter: blur(10px);
+        top: 0px;
+        z-index: 99;
+        display: block !important;
+    }
+
+    .dropdown {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background: transparent;
+        backdrop-filter: blur(10px);
+        top: 0px;
+        z-index: 999;
+        display: none;
+    }
+
+        .dropdown ul {
+            list-style: none;
+        }
+
+            .dropdown ul li {
+                margin: 25px 0;
+            }
+
+                .dropdown ul li a {
+                    text-decoration: none;
+                    font-size: 20px;
+                    color: #ffffff;
+                }
+
+                .dropdown ul li .btn {
+                    background: #01ac1d;
+                }
+
+        .dropdown #cross {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+        }
+
+            .dropdown #cross i {
+                color: #ffffff;
+                font-size: 30px;
+                cursor: pointer;
+            }
+
+    #hero h5 {
+        font-size: 16px !important;
+    }
+    #hero h1{
+        font-size: 35px !important;
+    }
+    #hero p{
+        font-size: 14px !important;
+        font-weight: 500 !important;
+    }
+}
